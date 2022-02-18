@@ -1,5 +1,5 @@
 .flex-box{
-    height: 30px;
+    height: 33px;
     width: 100%;
     display: flex;
     direction: row;
@@ -19,7 +19,7 @@
     display: flex;
     direction: row;
     justify-content: flex-start;
-    background-color: #F7F7F7;
+    background-color: lightgray;
     border-radius: 15px;
     
 }
@@ -41,8 +41,9 @@
 }
 
 .campo{
+    color: black;
     margin-left: 5px;
-    background-color: #F7F7F7;
+    background-color: lightgray;
     border-radius: 0px 15px 15px 0px;
     border: none;
 }
@@ -51,12 +52,18 @@
     text-decoration: underline;
     color: black;
     font-weight:bold;
+    text-decoration-color: #009660;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 5px;
 }
 
 .botonHabituales:hover{
     text-decoration: underline;
     color: black;
     font-weight:bold;
+    text-decoration-color: #009660;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 5px;
 }
 
 .flex-monica{
@@ -88,5 +95,6 @@
     background-color: #FED456;
     border-color: #FED456;
 }
+
  
    
