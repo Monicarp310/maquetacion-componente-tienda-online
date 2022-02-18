@@ -1,6 +1,6 @@
 .flex-box{
     height: 30px;
-    width: 1000px;
+    width: 100%;
     display: flex;
     direction: row;
     justify-content: space-between;
@@ -52,3 +52,28 @@
 .botonHabituales:hover{
     text-decoration: underline;
 }
+
+.flex-monica{
+    display: flex;
+    direction: row;
+    align-items: right;
+}
+
+.identificate{
+    list-style: none;
+    float: left;
+    background-color: white;
+    border: none;
+}
+
+.identificate:hover{
+    font-weight:bold;
+}
+
+.carrito{
+    background-color: #FED456;
+    border-radius: 5px;
+    border-color: #FED456;
+}
+ 
+   
