@@ -1,3 +1,79 @@
-h1 {
-    color: red;
+.flex-box{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    border-collapse: collapse;
 }
+
+.flex-raul{
+    display: flex;
+    direction: row;
+    justify-content: flex-start;
+}
+
+.campoBusqueda{
+    margin-left: 25px;
+    display: flex;
+    direction: row;
+    justify-content: flex-start;
+    background-color: darkgray;
+    border-radius: 15px;
+    
+}
+
+.botonCategoria{
+    background: none;
+    border: none;
+    border-collapse: collapse;
+    margin-left: 40px;
+}
+
+.botonHabituales{
+    background: none;
+    border: none;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+.campo{
+    margin-left: 5px;
+    background-color: darkgray;
+    border-radius: 0px 15px 15px 0px;
+    border: none;
+}
+
+.botonCategoria:hover{
+    text-decoration: underline;
+}
+
+.botonHabituales:hover{
+    text-decoration: underline;
+}
+
+.flex-monica{
+    display: flex;
+    direction: row;
+    align-items: right;
+}
+
+.identificate{
+    list-style: none;
+    float: left;
+    background-color: white;
+    border: none;
+}
+
+.identificate:hover{
+    font-weight:bold;
+}
+
+.carrito{
+    background-color: #FED456;
+    border-radius: 5px;
+    border-color: #FED456;
+}
+ 
+   
