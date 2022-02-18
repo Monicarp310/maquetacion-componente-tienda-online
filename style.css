@@ -19,7 +19,7 @@
     display: flex;
     direction: row;
     justify-content: flex-start;
-    background-color: darkgray;
+    background-color: #F7F7F7;
     border-radius: 15px;
     
 }
@@ -29,6 +29,7 @@
     border: none;
     border-collapse: collapse;
     margin-left: 40px;
+    color: #95958F;
 }
 
 .botonHabituales{
@@ -36,21 +37,26 @@
     border: none;
     border-collapse: collapse;
     margin-left: 20px;
+    color: #95958F;
 }
 
 .campo{
     margin-left: 5px;
-    background-color: darkgray;
+    background-color: #F7F7F7;
     border-radius: 0px 15px 15px 0px;
     border: none;
 }
 
 .botonCategoria:hover{
     text-decoration: underline;
+    color: black;
+    font-weight:bold;
 }
 
 .botonHabituales:hover{
     text-decoration: underline;
+    color: black;
+    font-weight:bold;
 }
 
 .flex-monica{
@@ -64,15 +70,22 @@
     float: left;
     background-color: white;
     border: none;
+    color: #95958F;
 }
 
 .identificate:hover{
     font-weight:bold;
+    color: black;
 }
 
 .carrito{
-    background-color: #FED456;
+    background-color: #FCBC36;
     border-radius: 5px;
+    border-color: #FCBC36;
+}
+
+.carrito:hover{
+    background-color: #FED456;
     border-color: #FED456;
 }
  
